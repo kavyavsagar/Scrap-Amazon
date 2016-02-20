@@ -52,7 +52,7 @@
 	    //Parsing HTML
 	    protected function parsing($input){
 
-			include_once("simple_html_dom.php");
+			include_once("inc/simple_html_dom.php");
 
 			# Create a DOM parser object
 			$html = new simple_html_dom();

@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Amazon Web Scrapping</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<style type="text/css">body{font-family: Verdana,Geneva,sans-serif;}</style>
+	</head>
+	<body>
+<header></header>
+		<div>
+			<h2>Amazon Scrapping</h2>
+			<form action="search.php" method="POST" id="searchForm">
+				<input type="text" name="qry" id="qry" placeholder="Enter your search Keyword.." class="txt-bx" required />
+				<input type="hidden" value="" id="search-hidden"/>
+				<input type="hidden" value="1" id="totalPage" name="totalPage" />
+				<input type="submit" value="Search" />
+			</form>
+		</div>
+
+		<div id="result">
+			<!-- ajax result here -->
+		</div>
+
+	</body>
+</html>

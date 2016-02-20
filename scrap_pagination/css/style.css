@@ -1,0 +1,88 @@
+// styles
+
+body{ 
+	font-family: Verdana,Geneva,sans-serif;
+}
+
+table{ 
+	border:none;
+	width: 100%;
+	text-align: center;
+}
+
+thead tr{
+	background: #222; 
+	color:#FFF;
+}
+
+tbody tr{
+	background: #F5F5F5; 
+	color:#222;
+}
+
+thead tr th{
+	padding:10px;
+}
+
+tr td:not(:first-child) {
+	font-weight: bold; 
+	font-size:14px;
+}
+
+input[type=submit]{ 
+	padding: 16px; 
+	font-size: 16px;
+	font-weight: bold; 
+	color: #FFF; 
+	background: #222; 
+}
+
+input[type=submit]:hover{
+	background: #2F4F4F; 
+	cursor: pointer;
+}
+
+.txt-bx{ 
+	width: 93%; 
+	padding: 16px; 
+	font-size: 16px; 
+	font-weight: bold;
+	color: #222; 
+}
+
+.price-sort:hover{ 
+	cursor: pointer;
+}
+
+.page{
+	padding: 3px;
+	margin: 2px;
+	background: #CCC;
+	border: 1px solid #222;
+}
+
+.page:hover{
+	cursor: pointer;;
+}
+
+.page.selected{
+	font-weight: bold;
+	padding: 5px;
+}
+
+.page-div{
+	margin-bottom: 50px;
+}
+
+.clear{
+	margin-top: 10px;
+	clear: both;
+}
+
+#result{
+	text-align: center;;
+}
+
+.spn1{
+	font-size: 12px;
+}
